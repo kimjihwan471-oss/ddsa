@@ -445,9 +445,9 @@ class GoodWordHandler(
         ).path
 
 
-        # 메인 페이지
+        # 메인 페이지 (goodword.html 연결)
         if path == "/":
-            filename = "index.html"
+            filename = "goodword.html"
             content_type = (
                 "text/html; charset=utf-8"
             )
